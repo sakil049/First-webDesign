@@ -1,0 +1,133 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.menu{
+    background: rgb(248, 16, 178) ;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+ul li a{}
+.container{
+    background-color: red;
+    width: 80%;
+}
+.start{
+    float: left;
+    width: 50%;
+    
+    clear: right;
+}
+
+.logo{
+    width: 100px;
+}
+.title{
+    font-size: 50px;
+    padding-top: 100px;
+}
+.padding{
+    margin-top: 100px;
+}
+.p1{
+    font-size: 18px;
+}
+.x3{
+    width: 50%;
+    float: right;
+    
+}
+button{
+    font-size: 24px;
+    font-weight: 500;
+    padding:10px 30px ;
+    background-color: rgb(237, 220, 23);
+    border: 0ch;
+    border-radius: 8px;
+}
+button:hover{
+    color: rgb(244, 246, 241);
+    background-color: black;
+}
+.p2{
+    font-size: 25px;
+    color: orangered;
+    font-weight: 700;
+}
+.name{
+    font-size: 25px;
+    font-weight: 700;
+}
+/* .price{
+    float: left;
+}
+.buy{
+    float: right;
+} */
+.Shoes-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 30px 0;
+
+}
+.item{
+    padding: 60px;
+    background-color: white;
+    box-shadow: 4px 4px 25px gray;
+    border-radius: 15px;
+
+}
+.item img{
+    width: 150px;
+    height: 150px;
+   
+}
+.parent1{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+.submit{
+    font-size: 24px;
+    font-weight: 500;
+    padding:10px 30px ;
+    background-color: rgb(237, 220, 23);
+    border: 0ch;
+    border-radius: 8px;
+}
+.submit:hover{
+    color: rgb(244, 246, 241);
+    background-color: black;
+}
+legend{
+    font-size: 30px;
+    font-weight: 500;
+}
+fieldset{
+    text-align: center;
+    border: 3px solid orangered;
+}
+label{
+    font-size: 25px;
+
+}
+.box{
+    width: 200px;
+    height: 30px;
+}
+footer{
+    padding: 50px 0 ;
+    text-align: center;
+}
